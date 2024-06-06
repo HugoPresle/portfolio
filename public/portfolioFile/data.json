@@ -1,5 +1,113 @@
 {
-    "projets": {},
+    "projets": {
+        "astar": {
+            "title": "ASTAR Game",
+            "date": "(mai. 2023 - aujourd’hui)",
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "MySQL",
+                "Tailwind CSS",
+                "Laravel",
+                "Midjourney"
+            ],
+            "text": "ASTAR est un jeu de rôle en ligne palpitant, qui vous plonge dans un univers fantastique rempli de monstres à collectionner et à entraîner. Dans ce monde, vous commencerez votre aventure en invoquant des monstres avec des GemStars et vous les ferez évoluer au fil des combats et des donjons pour devenir de véritables bêtes de combat.Vous devrez affronter des champions et des boss redoutables pour passer d'une ville à l'autre, et débloquer de nouveaux monstres, de nouveaux donjons et des défis encore plus difficiles. Chaque monstre a ses propres aptitudes et statistiques, ce qui vous permettra de créer des équipes uniques et de développer des stratégies de combat uniques.En plus de collectionner des monstres, vous devrez également gérer votre Endurance et vos Jetons d’évolution pour progresser efficacement dans le jeu. Les événements et les quêtes vous permettront de gagner des récompenses uniques et rares, tandis que les boutiques spéciales vous proposeront des articles exclusifs pour améliorer vos monstres et faciliter votre progression.",
+            "competence": [
+                {
+                    "id": 14,
+                    "title": "Développement Web",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "id": 6,
+                    "title": "Curiosité",
+                    "icon": "fa-solid fa-search"
+                },
+                {
+                    "id": 5,
+                    "title": "Autonomie",
+                    "icon": "fa-solid fa-user-check"
+                },
+                {
+                    "id": 17,
+                    "title": "Gestion de projet",
+                    "icon": "fa-solid fa-people-group"
+                },
+                {
+                    "id": 16,
+                    "title": "Gestion de base de données"
+                }
+            ],
+            "image": "ASTAR3.png"
+        },
+        "pokexpert": {
+            "title": "Pokexpert",
+            "date": "(sept. 2020 - sept. 2021)",
+            "technologies": [
+                "PHP",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "MySQL",
+                "Bootstrap",
+                "Laravel"
+            ],
+            "text": "Je suis heureux de vous présenter PokExpert, un projet que j'ai développé en solo et de manière autodidacte. PokExpert est un site web conçu spécialement pour les joueurs de Pokémon. Il offre un outil de gestion de listes permettant aux utilisateurs de suivre leur progression dans le jeu de manière simple et efficace.Sur PokExpert, chaque utilisateur peut créer des listes personnalisées de Pokémon. Ils peuvent ajouter ou supprimer des Pokémon de leurs listes pour refléter leur progression dans le jeu. De plus, ces listes peuvent être partagées avec la communauté, permettant à chacun de comparer ses progrès et d'échanger des astuces.À mesure qu'un utilisateur avance dans sa complétion, il peut cocher et marquer les Pokémon capturés ou obtenus. Une page de statistiques dédiée permet de visualiser la progression de ses listes individuelles ainsi que son avancement global. Cette fonctionnalité offre un aperçu clair et motivant de ses réalisations dans le jeu.PokExpert est un outil pratique et convivial pour tous les passionnés de Pokémon souhaitant organiser et partager leur expérience de jeu.",
+            "competence": [
+                {
+                    "id": 14,
+                    "title": "Développement Web",
+                    "text": "Travailler sur des projets de développement web m'a permis de renforcer mes compétences en conception d'interfaces utilisateur conviviales et réactives. J'ai appris à concevoir des applications web modernes en utilisant les dernières technologies front-end et back-end pour offrir une expérience utilisateur optimale.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "id": 6,
+                    "title": "Curiosité",
+                    "text": "Travailler sur des projets variés m'a permis de développer ma curiosité et ma soif d'apprendre. J'ai appris à explorer de nouvelles technologies, à relever de nouveaux défis et à rester constamment à jour sur les dernières tendances du secteur pour améliorer mes compétences et rester compétitif.",
+                    "icon": "fa-solid fa-search"
+                },
+                {
+                    "id": 5,
+                    "title": "Autonomie",
+                    "text": "J'ai également développé mes compétences en autonomie en travaillant sur ces projets. J'ai appris à prendre des initiatives, à résoudre les problèmes de manière indépendante et à être proactif dans mon apprentissage.",
+                    "icon": "fa-solid fa-user-check"
+                },
+                {
+                    "id": 16,
+                    "title": "Gestion de base de données"
+                }
+            ],
+            "image": "PokE1.png"
+        },
+        "requin":{
+            "title": "Requin",
+            "date": "(2023-2024)",
+            "technologies": [
+                "Pyhton"
+            ],
+            "text":"Dans le cadre de mon travail, j'ai entrepris un projet en solo visant à améliorer l'efficacité et la productivité de notre équipe. Pour ce faire, j'ai développé une série de scripts automatisant diverses tâches répétitives et chronophages, que j'ai intégrés dans un programme unique en Python, accessible à tous.Ce programme regroupe plusieurs scripts aux fonctionnalités variées. Par exemple, certains scripts permettent de découper des fichiers volumineux en segments plus petits, facilitant ainsi leur gestion et leur analyse. D'autres scripts comparent des données entre plusieurs fichiers pour trier et organiser l'information de manière optimale.De plus, j'ai inclus des scripts qui automatisent une série d'actions nécessaires avant le lancement d'un serveur local, simplifiant et accélérant ainsi le processus de mise en route de nos environnements de développement.Grâce à ce programme, notre équipe peut désormais accomplir ces tâches complexes en quelques clics, libérant du temps pour se concentrer sur des activités à plus forte valeur ajoutée. ",
+            "competence": [
+                {
+                    "id": 4,
+                    "title": "Automatisation avec Python",
+                    "icon": "fa-brands fa-python"
+                },
+                {
+                    "id": 6,
+                    "title": "Curiosité",
+                    "icon": "fa-solid fa-search"
+                },
+                {
+                    "id": 5,
+                    "title": "Autonomie",
+                    "icon": "fa-solid fa-user-check"
+                }
+            ],
+            "image": "requin.png"
+        }
+    },
     "experiences": {
         "lei": {
             "type": "Stage",
@@ -14,12 +122,13 @@
             "text": "En tant que développeur web chez LEI, j'ai eu l'opportunité de plonger directement dans le monde du développement web, même sans une connaissance préalable approfondie de ASP.NET et Angular 5, en travaillant sur un projet crucial de migration de fonctionnalités. Mon principal objectif était de migrer une fonctionnalité existante de ASP.NET vers une architecture plus moderne, utilisant ASP.NET REST et Angular 5. Cette tâche impliquait une compréhension approfondie des deux technologies, ainsi que des compétences en gestion de projet pour respecter les délais impartis.",
             "competences": [
                 {
+                    "id": 14,
                     "title": "Développement Web",
                     "text": "Travailler sur des projets de développement web m'a permis de renforcer mes compétences en conception d'interfaces utilisateur conviviales et réactives. J'ai appris à concevoir des applications web modernes en utilisant les dernières technologies front-end et back-end pour offrir une expérience utilisateur optimale.",
                     "icon": "fa-solid fa-code"
                 },
                 {
-                    "id" : 7,
+                    "id": 7,
                     "title": "Découverte d'Angular 5",
                     "text": "La migration vers Angular 5 a été une véritable révélation pour moi. Sans expérience préalable avec Angular, j'ai plongé dans cet écosystème passionnant et j'ai appris à concevoir des interfaces utilisateur dynamiques et réactives en utilisant les concepts modernes du développement frontend.",
                     "icon": "fa-brands fa-angular"
@@ -43,6 +152,7 @@
                     "icon": "fa-solid fa-code"
                 },
                 {
+                    "id": 17,
                     "title": "Gestion de projet",
                     "text": "Travailler sur ces projets m'a également donné une expérience précieuse en gestion de projet. J'ai appris à prioriser les tâches, à respecter les échéances et à collaborer efficacement avec les membres de l'équipe pour atteindre nos objectifs communs.",
                     "icon": "fa-solid fa-people-group"
@@ -56,11 +166,13 @@
             ],
             "competencesFonctionelle": [
                 {
+                    "id": 25,
                     "title": "Travail en équipe",
                     "text": "Travailler à plusieur m'a permis de développer mes compétences en travail d'équipe. J'ai appris à collaborer efficacement avec les membres de l'équipe, à partager mes connaissances et à résoudre les problèmes ensemble.",
                     "icon": "fa-solid fa-people-carry-box"
                 },
                 {
+                    "id": 19,
                     "title": "Gestion du temps",
                     "text": "La gestion du temps était un aspect crucial de ce projet. J'ai appris à prioriser les tâches, à respecter les échéances et à m'adapter aux changements pour atteindre nos objectifs dans les délais impartis.",
                     "icon": "fa-solid fa-clock"
@@ -105,16 +217,19 @@
                     "icon": "fa-solid fa-code"
                 },
                 {
+                    "id": 16,
                     "title": "Gestion de base de données",
                     "text": "Pour gerer les données collectées, j'ai développé mes compétences en gestion de base de données. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes SQL et à assurer la sécurité des données pour garantir la fiabilité et la performance des applications.",
                     "icon": "fa-solid fa-database"
                 },
                 {
+                    "id": 20,
                     "title": "Installation chez les clients",
                     "text": "L'installation des logiciels chez les clients m'a permis de comprendre l'importance de l'interopérabilité et de la compatibilité logicielle. J'ai acquis une expérience pratique dans la configuration et le déploiement de solutions logicielles sur différentes infrastructures, en veillant à ce que les installations se déroulent sans heurts et que les clients soient pleinement satisfaits de nos services.",
                     "icon": "fa-solid fa-server"
                 },
                 {
+                    "id": 18,
                     "title": "Gestion des tickets de correction",
                     "text": "En traitant les tickets de correction, j'ai développé des compétences solides en analyse et en débogage de code. J'ai appris à diagnostiquer rapidement les problèmes, à élaborer des solutions efficaces et à les mettre en œuvre de manière précise pour assurer la stabilité et la fiabilité des applications.",
                     "icon": "fa-solid fa-bug"
@@ -128,17 +243,19 @@
             ],
             "competencesFonctionelle": [
                 {
+                    "id": 23,
                     "title": "Relation Client",
                     "text": "En travaillant pour les demandes des clients, j'ai développé mes compétences en relation client. J'ai appris à écouter attentivement les besoins des clients, à communiquer efficacement avec eux et à fournir des solutions adaptées pour répondre à leurs attentes.",
                     "icon": "fa-solid fa-headset"
                 },
                 {
-                    "id":6,
+                    "id": 6,
                     "title": "Curiosité",
                     "text": "Travailler sur des projets variés m'a permis de développer ma curiosité et ma soif d'apprendre. J'ai appris à explorer de nouvelles technologies, à relever de nouveaux défis et à rester constamment à jour sur les dernières tendances du secteur pour améliorer mes compétences et rester compétitif.",
                     "icon": "fa-solid fa-search"
                 },
                 {
+                    "id": 25,
                     "title": "Travail en équipe",
                     "text": "Travailler à plusieur m'a permis de développer mes compétences en travail d'équipe. J'ai appris à collaborer efficacement avec les membres de l'équipe, à partager mes connaissances et à résoudre les problèmes ensemble.",
                     "icon": "fa-solid fa-people-carry-box"
@@ -168,16 +285,19 @@
             "text": "Chez REQUEA, un éditeur de logiciels français spécialisé dans les plateformes de Cœur de Réseaux, j'ai eu le privilège de travailler en tant que développeur logiciel web dans le domaine de l'IoT. Notre entreprise œuvre depuis une décennie à fournir des solutions IoT intuitives aux collectivités, aux entreprises, aux gestionnaires de bâtiments et aux régies d’eau, en s'appuyant notamment sur le réseau LoRaWAN.",
             "competences": [
                 {
+                    "id": 14,
                     "title": "Développement Web",
                     "text": "Travailler sur des projets de développement web m'a permis de renforcer mes compétences en conception d'interfaces utilisateur conviviales et réactives. J'ai appris à concevoir des applications web modernes en utilisant les dernières technologies front-end et back-end pour offrir une expérience utilisateur optimale.",
                     "icon": "fa-solid fa-code"
                 },
                 {
+                    "id": 12,
                     "title": "Développement IoT",
                     "text": "Travailler dans le domaine de l'IoT m'a permis de découvrir un nouvel univers technologique passionnant. J'ai appris à concevoir des solutions IoT innovantes en utilisant des capteurs, des réseaux sans fil et des plateformes cloud pour collecter, analyser et visualiser des données en temps réel.",
                     "icon": "fa-solid fa-network-wired"
                 },
                 {
+                    "id": 16,
                     "title": "Gestion de base de données",
                     "text": "Pour gerer les données collectées, j'ai développé mes compétences en gestion de base de données. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes SQL et à assurer la sécurité des données pour garantir la fiabilité et la performance des applications.",
                     "icon": "fa-solid fa-database"
@@ -195,21 +315,25 @@
                     "icon": "fa-brands fa-python"
                 },
                 {
+                    "id": 24,
                     "title": "Simulation de réseaux LoRaWAN",
                     "text": "J'ai acquis une expérience pratique dans la simulation de réseaux LoRaWAN pour tester et valider nos solutions IoT avant leur déploiement, garantissant ainsi leur fiabilité et leur performance.",
                     "icon": "fa-solid fa-network-wired"
                 },
                 {
+                    "id": 22,
                     "title": "Machine Virtuelle",
                     "text": "J'ai appris à utiliser des machines virtuelles pour tester et déployer des applications dans des environnements isolés, garantissant ainsi la stabilité et la sécurité de nos solutions logicielles.",
                     "icon": "fa-solid fa-server"
                 },
                 {
+                    "id": 21,
                     "title": "Installation et configuration de postes de travail",
                     "text": "J'ai acquis de l'expérience dans l'installation et la configuration de postes de travail pour les nouveaux employés, en veillant à ce qu'ils disposent des outils et des ressources nécessaires pour réussir dans leur rôle.",
                     "icon": "fa-solid fa-desktop"
                 },
                 {
+                    "id": 18,
                     "title": "Gestion des tickets de correction",
                     "text": "En traitant les tickets de correction, j'ai développé des compétences solides en analyse et en débogage de code. J'ai appris à diagnostiquer rapidement les problèmes, à élaborer des solutions efficaces et à les mettre en œuvre de manière précise pour assurer la stabilité et la fiabilité des applications.",
                     "icon": "fa-solid fa-bug"
@@ -223,11 +347,13 @@
             ],
             "competencesFonctionelle": [
                 {
+                    "id": 25,
                     "title": "Travail en équipe",
                     "text": "Travailler à plusieur m'a permis de développer mes compétences en travail d'équipe. J'ai appris à collaborer efficacement avec les membres de l'équipe, à partager mes connaissances et à résoudre les problèmes ensemble.",
                     "icon": "fa-solid fa-people-carry-box"
                 },
                 {
+                    "id": 19,
                     "title": "Gestion du temps",
                     "text": "La gestion du temps était un aspect crucial de ce projet. J'ai appris à prioriser les tâches, à respecter les échéances et à m'adapter aux changements pour atteindre nos objectifs dans les délais impartis.",
                     "icon": "fa-solid fa-clock"
@@ -251,11 +377,13 @@
                     "icon": "fa-solid fa-search"
                 },
                 {
+                    "id": 23,
                     "title": "Relation Client",
                     "text": "En travaillant pour les demandes des clients, j'ai développé mes compétences en relation client. J'ai appris à écouter attentivement les besoins des clients, à communiquer efficacement avec eux et à fournir des solutions adaptées pour répondre à leurs attentes.",
                     "icon": "fa-solid fa-headset"
                 },
                 {
+                    "id": 15,
                     "title": "Écoute active",
                     "text": "À travers diverses interactions avec les membres de l'équipe et les clients au cours de réunion, j'ai développé mes compétences en écoute active. J'ai appris à écouter attentivement les besoins et les préoccupations des autres, à poser des questions pertinentes et à fournir des réponses adaptées pour favoriser une communication efficace et une collaboration harmonieuse.",
                     "icon": "fa-solid fa-ear-listen"
@@ -304,6 +432,9 @@
             "type": "technique",
             "projets": [
                 "requea"
+            ],
+            "projetsPerso": [
+                "requin"
             ]
         },
         {
@@ -316,6 +447,10 @@
                 "requea",
                 "lei",
                 "octafood"
+            ],
+            "projetsPerso": [
+                "astar",
+                "pokexpert"
             ]
         },
         {
@@ -328,6 +463,10 @@
                 "lei",
                 "requea",
                 "octafood"
+            ],
+            "projetsPerso": [
+                "astar",
+                "pokexpert"
             ]
         },
         {
@@ -415,6 +554,10 @@
             "projets": [
                 "lei",
                 "requea"
+            ],
+            "projetsPerso": [
+                "astar",
+                "pokexpert"
             ]
         },
         {
@@ -438,6 +581,10 @@
             "projets": [
                 "lei",
                 "requea"
+            ],
+            "projetsPerso": [
+                "astar",
+                "pokexpert"
             ]
         },
         {
@@ -450,6 +597,9 @@
                 "lei",
                 "requea",
                 "octafood"
+            ],
+            "projetsPerso": [
+                "astar"
             ]
         },
         {

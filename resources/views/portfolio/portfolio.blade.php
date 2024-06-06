@@ -61,6 +61,7 @@
                     <li>
                         <a id="readMoreExpA" class="hidden"><i></i></a>
                         <a id="readMoreCompA" class="hidden"><i></i></a>
+                        <a id="readMoreProjA" class="hidden"><i></i></a>
                     </li>
 
                 </ul>
@@ -90,7 +91,7 @@
         <div class="p-4 sm:ml-64">
             <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg">
                 <div class="flex-1 mt-8 lg:mx-12 lg:mt-0" id="menu">
-                    <div id="home" class="flex rounded-lg min-h-screen hidden">
+                    <div id="home" class="flex rounded-lg min-h-screen">
                         <section class="bg-white">
                             <div class="max-w-6xl px-6 py-10 mx-auto">
                                 <p class="text-xl font-medium text-blue-500 ">Portfolio</p>
@@ -105,8 +106,7 @@
                                     <div
                                         class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                                         <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl"
-                                            src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                                            alt="client photo" />
+                                            src="{{ '/portfolioFile/OIG12.jpeg' }}" alt="">
 
                                         <div class="mt-2 md:mx-6">
 
@@ -147,81 +147,50 @@
                             </div>
                         </section>
                     </div>
-                    <div id="proj" class="flex rounded-lg min-h-screen">
+                    <div id="proj" class="flex rounded-lg min-h-screen hidden">
                         <section class="bg-white">
                             <div class="container px-6 py-10 mx-auto">
                                 <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">
                                     <span class="underline decoration-blue-500">Projets</span>
                                 </h1>
                                 <p class="mt-4 text-gray-500 xl:mt-6">
-                                    Liste de mes projets personnels et professionnels. Vous trouverez ici une sélection de mes projets les plus récents et les plus significatifs. N'hésitez pas à cliquer sur les images pour en savoir plus sur chaque projet.
+                                    Liste de mes projets personnels et professionnels. Vous trouverez ici une sélection de
+                                    mes projets les plus récents et les plus significatifs. N'hésitez pas à cliquer sur les
+                                    images pour en savoir plus sur chaque projet.
                                 </p>
 
                                 <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-1 xl:grid-cols-3">
-                                    <div class="relative group">
+                                    <div class="relative group border-2 border-blue-500 rounded-lg cursor-pointer"
+                                        onclick="showProj('astar')">
                                         <img class="object-cover w-full rounded-lg h-96"
-                                            src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
+                                            src="{{ 'portfolioFile/proj/040-Faombre.png' }}" alt="">
+                                        <div
+                                            class="rounded-lg absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">ASTAR Game
+                                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Jeu de rôle
+                                                    en ligne</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative group border-2 border-blue-500 rounded-lg cursor-pointer"
+                                        onclick="showProj('pokexpert')">
+                                        <img class="object-cover w-full rounded-lg h-96"
+                                            src="{{ 'portfolioFile/proj/Capture d’écran 2024-05-25 à 12.02.40.png' }}"
                                             alt="">
                                         <div
                                             class="rounded-lg absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Best website
-                                                collections</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Website</p>
+                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">PokExpert</h2>
+                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Outils
+                                                Statisques </p>
                                         </div>
                                     </div>
-                                    <div class="relative group">
-                                        <img class="object-cover w-full rounded-lg h-96"
-                                            src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
-                                            alt="">
-                                        <div
-                                            class="rounded-lg absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Best website
-                                                collections</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Website</p>
-                                        </div>
-                                    </div>
-                                    <div class="relative group">
+                                    <div class="relative group border-2 border-blue-500 rounded-lg cursor-pointer"
+                                        onclick="showProj('requin')">
                                         <img class="rounded-lg object-cover w-full rounded-lg h-96"
-                                            src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
-                                            alt="">
+                                            src="{{ 'portfolioFile/proj/OIG1 (1).jpeg'}}" alt="">
                                         <div
                                             class="absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Best website
-                                                collections</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Website</p>
-                                        </div>
-                                    </div>
-                                    <div class="relative group">
-                                        <img class="object-cover w-full rounded-lg h-96"
-                                            src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
-                                            alt="">
-                                        <div
-                                            class="rounded-lg absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Best website
-                                                collections</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Website</p>
-                                        </div>
-                                    </div>
-                                    <div class="relative group">
-                                        <img class="object-cover w-full rounded-lg h-96"
-                                            src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
-                                            alt="">
-                                        <div
-                                            class="rounded-lg absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Best website
-                                                collections</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Website</p>
-                                        </div>
-                                    </div>
-                                    <div class="relative group">
-                                        <img class="rounded-lg object-cover w-full rounded-lg h-96"
-                                            src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
-                                            alt="">
-                                        <div
-                                            class="absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Best website
-                                                collections</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Website</p>
+                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Requin</h2>
+                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Script Pyhton</p>
                                         </div>
                                     </div>
                                 </div>
@@ -528,7 +497,21 @@
                                     Liste des projets en rapport avec cette
                                     <span class="underline decoration-blue-500">compétence</span> :
                                 </h2>
+                                <h3 class="mt-6 text-gray-700">Projet professionnel : </h3>
+                                <p>
+                                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
+                                </p>
                                 <ul id="RMC-proj" class="mt-4 text-gray-500"></ul>
+
+                                <h3 class="mt-6 text-gray-700">Projet perso : </h3>
+                                <p>
+                                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
+                                </p>
+                                <ul id="RMC-projP" class="mt-4 text-gray-500"></ul>
 
                                 <div class="mt-4">
                                     <a class="text-blue-500 hover:underline hover:decoration-blue-500 cursor-pointerm"
@@ -542,10 +525,51 @@
                     </div>
                     <div id="readMoreProj" class="flex rounded-lg min-h-screen hidden">
                         <section class="bg-white">
+                            <div class="container px-6 py-10 mx-auto">
+                                <div class="lg:flex lg:-mx-6">
+                                    <div class="lg:w-3/4 lg:px-6">
+                                        <img class="object-cover object-center w-full h-80 xl:h-[28rem] rounded-xl border border-gray-200"
+                                            id="RMP-img" alt="">
+                                        <div>
+                                            <p class="mt-6 text-sm text-blue-500 uppercase" id="RMP-type"></p>
+
+                                            <h1 class="max-w-lg mt-4 text-2xl font-semibold leading-tight text-gray-800"
+                                                id="RMP-title">
+                                            </h1>
+
+                                            <div class="flex items-center mt-6">
+                                                <p class="mt-1 text-gray-500" id="RMP-text"></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <a class="text-blue-500 hover:underline hover:decoration-blue-500 cursor-pointerm"
+                                                id="RDM-back" onclick="portMenu('proj')">
+                                                <i class="fa-solid fa-arrow-left"></i> Retour aux projets
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-8 lg:w-1/4 lg:mt-0 lg:px-6">
+                                        <div>
+                                            <h3 class="text-blue-500 capitalize">technologies</h3>
+                                            <ul class="mt-2 text-gray-500" id="RMP-tech">
+                                            </ul>
+                                        </div>
+
+                                        <hr class="my-6 border-gray-200">
+
+                                        <div>
+                                            <h3 class="text-blue-500 capitalize">competences</h3>
+                                            <ul class="mt-2 text-gray-500" id="RMP-comp">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                     </div>
                 </div>
-            </div>
     </section>
 @endsection
 
@@ -599,12 +623,12 @@
             });
         }
 
-        function showMoreComp(comp) {
+        function showMoreComp(comp,backproj) {
             let divs = document.querySelectorAll('#menu > div');
             divs.forEach(div => {
                 if (div.id == 'readMoreComp') {
                     div.classList.remove('hidden');
-                    changeTextComp(comp);
+                    changeTextComp(comp,backproj);
                 } else {
                     div.classList.add('hidden');
                 }
@@ -612,7 +636,7 @@
 
         }
 
-        function changeTextComp(id) {
+        function changeTextComp(id,backproj) {
             clearComp();
             readJsonFile('/portfolioFile/data.json').then(data => {
                 json = data.competence;
@@ -621,6 +645,7 @@
                 let title = document.getElementById('RMC-title');
                 let text = document.getElementById('RMC-text');
                 let i = document.getElementById('RMC-icon');
+                let a = document.getElementById('RMC-back');
 
                 title.innerHTML = json.title;
                 text.innerHTML = json.text;
@@ -631,7 +656,23 @@
                     onclick="showMoreExp('${proj}',${json.id})">
                         <span class="inline-block w-2 h-2 mr-2 bg-blue-500 rounded-full"></span>${proj}</li>`;
                 });
-
+                json.projetsPerso.forEach(proj => {
+                    ul = document.getElementById('RMC-projP');
+                    ul.innerHTML += `<li class="mt-2 text-gray-500 uppercase hover:underline hover:text-blue-500 cursor-pointer"
+                    onclick="showProj('${proj}')">
+                        <span class="inline-block w-2 h-2 mr-2 bg-blue-500 rounded-full"></span>${proj}</li>`;
+                });
+                if (backproj != null) {
+                    a.innerHTML = `<i class="fa-solid fa-arrow-left"></i> Retour sur <span class="capitalize">${backproj}</span>`;
+                    a.onclick = () => {
+                        showProj(backproj);
+                    }
+                } else {
+                    a.innerHTML = `<i class="fa-solid fa-arrow-left"></i> Retour sur les compétences`;
+                    a.onclick = () => {
+                        portMenu('comp');
+                    }
+                }
             });
         }
 
@@ -639,12 +680,15 @@
             let title = document.getElementById('RMC-title');
             let text = document.getElementById('RMC-text');
             let i = document.getElementById('RMC-icon');
+            let a = document.getElementById('RMC-back');
+            let ul = document.getElementById('RMC-proj');
+            let ulP = document.getElementById('RMC-projP');
 
             title.innerHTML = '';
             text.innerHTML = '';
             i.innerHTML = '';
-            let ul = document.getElementById('RMC-proj');
             ul.innerHTML = '';
+            ulP.innerHTML = '';
 
         }
 
@@ -745,6 +789,63 @@
             compeTe.innerHTML = '';
             compeFo.innerHTML = '';
             conclu.innerHTML = '';
+        }
+
+        function showProj(proj) {
+            let divs = document.querySelectorAll('#menu > div');
+            divs.forEach(div => {
+                if (div.id == 'readMoreProj') {
+                    div.classList.remove('hidden');
+                    changeTextProj(proj);
+                } else {
+                    div.classList.add('hidden');
+                }
+            });
+        }
+
+        function changeTextProj(proj) {
+            clearProj();
+            readJsonFile('/portfolioFile/data.json').then(data => {
+                json = data.projets[proj];
+
+                let type = document.getElementById('RMP-type');
+                let title = document.getElementById('RMP-title');
+                let text = document.getElementById('RMP-text');
+                let ul = document.getElementById('RMP-tech');
+                let comp = document.getElementById('RMP-comp');
+                let image = document.getElementById('RMP-img');
+
+                image.src = `portfolioFile/proj/${json.image}`;
+                type.innerHTML = json.date;
+                title.innerHTML = json.title;
+                text.innerHTML = json.text;
+                json.technologies.forEach(tech => {
+                    ul.innerHTML += `<li class="mt-2 text-gray-500 uppercase hover:underline hover:text-blue-500 cursor-pointer">
+                        <span class="inline-block w-2 h-2 mr-2 bg-gray-500 rounded-full"></span>${tech}</li>`;
+                });
+                json.competence.forEach(compe => {
+                    comp.innerHTML += `<li class="mt-2 text-gray-500 uppercase hover:underline hover:text-blue-500 cursor-pointer"
+                    onclick="showMoreComp('${compe.id}','${proj}')">
+                        <span class="inline-block w-2 h-2 mr-2 bg-blue-500 rounded-full"></span>${compe.title}</li>`;
+                });
+            });
+        }
+
+        function clearProj() {
+            let type = document.getElementById('RMP-type');
+            let title = document.getElementById('RMP-title');
+            let text = document.getElementById('RMP-text');
+            let tech = document.getElementById('RMP-tech');
+            let comp = document.getElementById('RMP-comp');
+            let image = document.getElementById('RMP-img');
+            
+
+            type.innerHTML = '';
+            title.innerHTML = '';
+            text.innerHTML = '';
+            tech.innerHTML = '';
+            comp.innerHTML = '';
+
         }
 
         async function readJsonFile(filePath) {
