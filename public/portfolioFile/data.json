@@ -1,0 +1,547 @@
+{
+    "projets": {},
+    "experiences": {
+        "lei": {
+            "type": "Stage",
+            "title": "Développeur Web chez LEI",
+            "date": "(fév. 2020 - avr. 2020)",
+            "technologies": [
+                "ASP.NET",
+                "Angular 5",
+                "C#",
+                "RESTful API"
+            ],
+            "text": "En tant que développeur web chez LEI, j'ai eu l'opportunité de plonger directement dans le monde du développement web, même sans une connaissance préalable approfondie de ASP.NET et Angular 5, en travaillant sur un projet crucial de migration de fonctionnalités. Mon principal objectif était de migrer une fonctionnalité existante de ASP.NET vers une architecture plus moderne, utilisant ASP.NET REST et Angular 5. Cette tâche impliquait une compréhension approfondie des deux technologies, ainsi que des compétences en gestion de projet pour respecter les délais impartis.",
+            "competences": [
+                {
+                    "title": "Développement Web",
+                    "text": "Travailler sur des projets de développement web m'a permis de renforcer mes compétences en conception d'interfaces utilisateur conviviales et réactives. J'ai appris à concevoir des applications web modernes en utilisant les dernières technologies front-end et back-end pour offrir une expérience utilisateur optimale.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "id" : 7,
+                    "title": "Découverte d'Angular 5",
+                    "text": "La migration vers Angular 5 a été une véritable révélation pour moi. Sans expérience préalable avec Angular, j'ai plongé dans cet écosystème passionnant et j'ai appris à concevoir des interfaces utilisateur dynamiques et réactives en utilisant les concepts modernes du développement frontend.",
+                    "icon": "fa-brands fa-angular"
+                },
+                {
+                    "id": 2,
+                    "title": "Apprentissage de ASP.NET",
+                    "text": "Bien que je n'aie pas eu d'expérience antérieure avec ASP.NET, j'ai rapidement appris ses concepts fondamentaux et ses meilleures pratiques tout en travaillant sur la migration. Cette expérience m'a permis de comprendre les tenants et les aboutissants du développement backend et de développer mes compétences en C#.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "id": 9,
+                    "title": "Développement C#.NET",
+                    "text": "Travailler sur des projets C#.NET m'a permis de renforcer mes compétences en développement backend. J'ai appris à concevoir des applications robustes et évolutives en utilisant les meilleures pratiques de développement C# et en respectant les normes de qualité élevées.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "id": 3,
+                    "title": "Architecture RESTful",
+                    "text": "Cette expérience m'a permis de comprendre les principes fondamentaux de l'architecture REST et de les mettre en pratique. J'ai appris à concevoir des API REST efficaces et évolutives, favorisant une communication efficace entre le frontend et le backend.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "title": "Gestion de projet",
+                    "text": "Travailler sur ces projets m'a également donné une expérience précieuse en gestion de projet. J'ai appris à prioriser les tâches, à respecter les échéances et à collaborer efficacement avec les membres de l'équipe pour atteindre nos objectifs communs.",
+                    "icon": "fa-solid fa-people-group"
+                },
+                {
+                    "id": 8,
+                    "title": "Développement agile",
+                    "text": "Ces expériences m'ont également initié aux méthodologies de développement agile. J'ai appris à travailler de manière itérative, à m'adapter aux changements et à collaborer étroitement avec les membres de l'équipe pour résoudre les problèmes rapidement.",
+                    "icon": "fa-solid fa-tasks"
+                }
+            ],
+            "competencesFonctionelle": [
+                {
+                    "title": "Travail en équipe",
+                    "text": "Travailler à plusieur m'a permis de développer mes compétences en travail d'équipe. J'ai appris à collaborer efficacement avec les membres de l'équipe, à partager mes connaissances et à résoudre les problèmes ensemble.",
+                    "icon": "fa-solid fa-people-carry-box"
+                },
+                {
+                    "title": "Gestion du temps",
+                    "text": "La gestion du temps était un aspect crucial de ce projet. J'ai appris à prioriser les tâches, à respecter les échéances et à m'adapter aux changements pour atteindre nos objectifs dans les délais impartis.",
+                    "icon": "fa-solid fa-clock"
+                },
+                {
+                    "id": 1,
+                    "title": "Adaptabilité",
+                    "text": "Travailler sur ces projets m'a également appris à être adaptable et à m'adapter rapidement aux nouvelles technologies et aux nouveaux défis. J'ai appris à sortir de ma zone de confort et à relever des défis techniques avec confiance.",
+                    "icon": "fa-solid fa-briefcase"
+                },
+                {
+                    "id": 5,
+                    "title": "Autonomie",
+                    "text": "J'ai également développé mes compétences en autonomie en travaillant sur ces projets. J'ai appris à prendre des initiatives, à résoudre les problèmes de manière indépendante et à être proactif dans mon apprentissage.",
+                    "icon": "fa-solid fa-user-check"
+                }
+            ],
+            "conclusion": "Cette expérience chez LEI a été un véritable tremplin pour moi dans le monde du développement web, me permettant d'acquérir rapidement de nouvelles compétences techniques tout en développant une compréhension approfondie des technologies modernes. Elle a renforcé ma conviction que l'apprentissage continu et l'adaptabilité sont essentiels pour réussir dans ce domaine en constante évolution. Elle a également renforcé ma passion pour le développement web et ma capacité à m'adapter à de nouveaux défis technologiques."
+        },
+        "octafood": {
+            "type": "Alternance",
+            "title": "Développeur C#.NET / DELPHI",
+            "date": "(sept. 2020 - oct. 2021)",
+            "technologies": [
+                "C#",
+                "Delphi",
+                "SQL Server",
+                ".NET Framework"
+            ],
+            "text": "Chez OCTAFOOD, une entreprise spécialisée dans le développement de logiciels destinés au secteur de l'agroalimentaire, j'ai eu le privilège de travailler en tant que développeur C#.NET et Delphi. Mon rôle principal consistait à assurer la maintenance et l'amélioration des logiciels existants, en répondant aux tickets de correction, en assurant l'installation chez les clients et en mettant en place de nouvelles fonctionnalités pour répondre aux besoins évolutifs de l'entreprise.",
+            "competences": [
+                {
+                    "id": 9,
+                    "title": "Développement C#.NET",
+                    "text": "Travailler sur des projets C#.NET m'a permis de renforcer mes compétences en développement backend. J'ai appris à concevoir des applications robustes et évolutives en utilisant les meilleures pratiques de développement C# et en respectant les normes de qualité élevées.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "id": 10,
+                    "title": "Développement Delphi",
+                    "text": "Travailler avec Delphi a été une expérience unique pour moi. J'ai appris à concevoir des applications Windows puissantes et conviviales en utilisant les fonctionnalités avancées de Delphi et en respectant les exigences spécifiques du secteur de l'agroalimentaire.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "title": "Gestion de base de données",
+                    "text": "Pour gerer les données collectées, j'ai développé mes compétences en gestion de base de données. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes SQL et à assurer la sécurité des données pour garantir la fiabilité et la performance des applications.",
+                    "icon": "fa-solid fa-database"
+                },
+                {
+                    "title": "Installation chez les clients",
+                    "text": "L'installation des logiciels chez les clients m'a permis de comprendre l'importance de l'interopérabilité et de la compatibilité logicielle. J'ai acquis une expérience pratique dans la configuration et le déploiement de solutions logicielles sur différentes infrastructures, en veillant à ce que les installations se déroulent sans heurts et que les clients soient pleinement satisfaits de nos services.",
+                    "icon": "fa-solid fa-server"
+                },
+                {
+                    "title": "Gestion des tickets de correction",
+                    "text": "En traitant les tickets de correction, j'ai développé des compétences solides en analyse et en débogage de code. J'ai appris à diagnostiquer rapidement les problèmes, à élaborer des solutions efficaces et à les mettre en œuvre de manière précise pour assurer la stabilité et la fiabilité des applications.",
+                    "icon": "fa-solid fa-bug"
+                },
+                {
+                    "id": 11,
+                    "title": "Développement de nouvelles fonctionnalités",
+                    "text": "La mise en place de nouvelles fonctionnalités m'a offert l'occasion d'innover et de repousser les limites des logiciels existants. J'ai appris à recueillir les exigences des clients, à concevoir des solutions techniques adaptées et à les mettre en œuvre de manière efficace, en veillant à ce qu'elles soient conviviales et répondent aux besoins métier spécifiques.",
+                    "icon": "fa-solid fa-lightbulb"
+                }
+            ],
+            "competencesFonctionelle": [
+                {
+                    "title": "Relation Client",
+                    "text": "En travaillant pour les demandes des clients, j'ai développé mes compétences en relation client. J'ai appris à écouter attentivement les besoins des clients, à communiquer efficacement avec eux et à fournir des solutions adaptées pour répondre à leurs attentes.",
+                    "icon": "fa-solid fa-headset"
+                },
+                {
+                    "id":6,
+                    "title": "Curiosité",
+                    "text": "Travailler sur des projets variés m'a permis de développer ma curiosité et ma soif d'apprendre. J'ai appris à explorer de nouvelles technologies, à relever de nouveaux défis et à rester constamment à jour sur les dernières tendances du secteur pour améliorer mes compétences et rester compétitif.",
+                    "icon": "fa-solid fa-search"
+                },
+                {
+                    "title": "Travail en équipe",
+                    "text": "Travailler à plusieur m'a permis de développer mes compétences en travail d'équipe. J'ai appris à collaborer efficacement avec les membres de l'équipe, à partager mes connaissances et à résoudre les problèmes ensemble.",
+                    "icon": "fa-solid fa-people-carry-box"
+                },
+                {
+                    "id": 5,
+                    "title": "Autonomie",
+                    "text": "J'ai également développé mes compétences en autonomie en travaillant sur ces projets. J'ai appris à prendre des initiatives, à résoudre les problèmes de manière indépendante et à être proactif dans mon apprentissage.",
+                    "icon": "fa-solid fa-user-check"
+                }
+            ],
+            "conclusion": "Mon expérience chez OCTAFOOD m'a permis de développer une solide expertise en développement logiciel, en mettant l'accent sur la qualité, la fiabilité et la satisfaction client. Elle m'a également enseigné l'importance de l'adaptabilité et de la polyvalence dans un environnement professionnel dynamique et en constante évolution."
+        },
+        "requea": {
+            "type": "Alternance",
+            "title": "Développeur logicel Web",
+            "date": "(janv. 2023 - aujourd’hui)",
+            "technologies": [
+                "JavaScript",
+                "Java",
+                "Python",
+                "Html",
+                "CSS",
+                "SQl",
+                "MangoDB"
+            ],
+            "text": "Chez REQUEA, un éditeur de logiciels français spécialisé dans les plateformes de Cœur de Réseaux, j'ai eu le privilège de travailler en tant que développeur logiciel web dans le domaine de l'IoT. Notre entreprise œuvre depuis une décennie à fournir des solutions IoT intuitives aux collectivités, aux entreprises, aux gestionnaires de bâtiments et aux régies d’eau, en s'appuyant notamment sur le réseau LoRaWAN.",
+            "competences": [
+                {
+                    "title": "Développement Web",
+                    "text": "Travailler sur des projets de développement web m'a permis de renforcer mes compétences en conception d'interfaces utilisateur conviviales et réactives. J'ai appris à concevoir des applications web modernes en utilisant les dernières technologies front-end et back-end pour offrir une expérience utilisateur optimale.",
+                    "icon": "fa-solid fa-code"
+                },
+                {
+                    "title": "Développement IoT",
+                    "text": "Travailler dans le domaine de l'IoT m'a permis de découvrir un nouvel univers technologique passionnant. J'ai appris à concevoir des solutions IoT innovantes en utilisant des capteurs, des réseaux sans fil et des plateformes cloud pour collecter, analyser et visualiser des données en temps réel.",
+                    "icon": "fa-solid fa-network-wired"
+                },
+                {
+                    "title": "Gestion de base de données",
+                    "text": "Pour gerer les données collectées, j'ai développé mes compétences en gestion de base de données. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes SQL et à assurer la sécurité des données pour garantir la fiabilité et la performance des applications.",
+                    "icon": "fa-solid fa-database"
+                },
+                {
+                    "id": 13,
+                    "title": "Développement Java",
+                    "text": "Travailler avec Java m'a permis de renforcer mes compétences en développement backend. J'ai appris à concevoir des applications robustes et évolutives en utilisant les meilleures pratiques de développement Java et en respectant les normes de qualité élevées.",
+                    "icon": "fa-brands fa-java"
+                },
+                {
+                    "id": 4,
+                    "title": "Automatisation avec Python",
+                    "text": "J'ai développé des compétences en Python pour automatiser des tâches répétitives, améliorant ainsi l'efficacité de notre processus de développement.",
+                    "icon": "fa-brands fa-python"
+                },
+                {
+                    "title": "Simulation de réseaux LoRaWAN",
+                    "text": "J'ai acquis une expérience pratique dans la simulation de réseaux LoRaWAN pour tester et valider nos solutions IoT avant leur déploiement, garantissant ainsi leur fiabilité et leur performance.",
+                    "icon": "fa-solid fa-network-wired"
+                },
+                {
+                    "title": "Machine Virtuelle",
+                    "text": "J'ai appris à utiliser des machines virtuelles pour tester et déployer des applications dans des environnements isolés, garantissant ainsi la stabilité et la sécurité de nos solutions logicielles.",
+                    "icon": "fa-solid fa-server"
+                },
+                {
+                    "title": "Installation et configuration de postes de travail",
+                    "text": "J'ai acquis de l'expérience dans l'installation et la configuration de postes de travail pour les nouveaux employés, en veillant à ce qu'ils disposent des outils et des ressources nécessaires pour réussir dans leur rôle.",
+                    "icon": "fa-solid fa-desktop"
+                },
+                {
+                    "title": "Gestion des tickets de correction",
+                    "text": "En traitant les tickets de correction, j'ai développé des compétences solides en analyse et en débogage de code. J'ai appris à diagnostiquer rapidement les problèmes, à élaborer des solutions efficaces et à les mettre en œuvre de manière précise pour assurer la stabilité et la fiabilité des applications.",
+                    "icon": "fa-solid fa-bug"
+                },
+                {
+                    "id": 11,
+                    "title": "Développement de nouvelles fonctionnalités",
+                    "text": "La mise en place de nouvelles fonctionnalités m'a offert l'occasion d'innover et de repousser les limites des logiciels existants. J'ai appris à recueillir les exigences des clients, à concevoir des solutions techniques adaptées et à les mettre en œuvre de manière efficace, en veillant à ce qu'elles soient conviviales et répondent aux besoins métier spécifiques.",
+                    "icon": "fa-solid fa-lightbulb"
+                }
+            ],
+            "competencesFonctionelle": [
+                {
+                    "title": "Travail en équipe",
+                    "text": "Travailler à plusieur m'a permis de développer mes compétences en travail d'équipe. J'ai appris à collaborer efficacement avec les membres de l'équipe, à partager mes connaissances et à résoudre les problèmes ensemble.",
+                    "icon": "fa-solid fa-people-carry-box"
+                },
+                {
+                    "title": "Gestion du temps",
+                    "text": "La gestion du temps était un aspect crucial de ce projet. J'ai appris à prioriser les tâches, à respecter les échéances et à m'adapter aux changements pour atteindre nos objectifs dans les délais impartis.",
+                    "icon": "fa-solid fa-clock"
+                },
+                {
+                    "id": 1,
+                    "title": "Adaptabilité",
+                    "text": "Travailler sur ces projets m'a également appris à être adaptable et à m'adapter rapidement aux nouvelles technologies et aux nouveaux défis. J'ai appris à sortir de ma zone de confort et à relever des défis techniques avec confiance.",
+                    "icon": "fa-solid fa-briefcase"
+                },
+                {
+                    "id": 5,
+                    "title": "Autonomie",
+                    "text": "J'ai également développé mes compétences en autonomie en travaillant sur ces projets. J'ai appris à prendre des initiatives, à résoudre les problèmes de manière indépendante et à être proactif dans mon apprentissage.",
+                    "icon": "fa-solid fa-user-check"
+                },
+                {
+                    "id": 6,
+                    "title": "Curiosité",
+                    "text": "Travailler sur des projets variés m'a permis de développer ma curiosité et ma soif d'apprendre. J'ai appris à explorer de nouvelles technologies, à relever de nouveaux défis et à rester constamment à jour sur les dernières tendances du secteur pour améliorer mes compétences et rester compétitif.",
+                    "icon": "fa-solid fa-search"
+                },
+                {
+                    "title": "Relation Client",
+                    "text": "En travaillant pour les demandes des clients, j'ai développé mes compétences en relation client. J'ai appris à écouter attentivement les besoins des clients, à communiquer efficacement avec eux et à fournir des solutions adaptées pour répondre à leurs attentes.",
+                    "icon": "fa-solid fa-headset"
+                },
+                {
+                    "title": "Écoute active",
+                    "text": "À travers diverses interactions avec les membres de l'équipe et les clients au cours de réunion, j'ai développé mes compétences en écoute active. J'ai appris à écouter attentivement les besoins et les préoccupations des autres, à poser des questions pertinentes et à fournir des réponses adaptées pour favoriser une communication efficace et une collaboration harmonieuse.",
+                    "icon": "fa-solid fa-ear-listen"
+                }
+            ],
+            "conclusion": "Mon expérience chez REQUEA m'a non seulement permis de développer mes compétences techniques dans le domaine du développement logiciel web et de l'IoT, mais m'a également offert une expérience précieuse en gestion de projet, en collaboration d'équipe et en résolution de problèmes. Je suis enthousiaste à l'idée de continuer à contribuer au succès de notre entreprise tout en continuant à développer mes compétences et connaissances dans ce domaine en constante évolution."
+        }
+    },
+    "competence": [
+        {
+            "id": 1,
+            "title": "Adaptabilité",
+            "text": "Travailler sur ces projets m'a également appris à être adaptable et à m'adapter rapidement aux nouvelles technologies et aux nouveaux défis. J'ai appris à sortir de ma zone de confort et à relever des défis techniques avec confiance.",
+            "icon": "fa-solid fa-briefcase",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Apprentissage de ASP.NET",
+            "text": "Bien que je n'aie pas eu d'expérience antérieure avec ASP.NET, j'ai rapidement appris ses concepts fondamentaux et ses meilleures pratiques tout en travaillant sur la migration. Cette expérience m'a permis de comprendre les tenants et les aboutissants du développement backend et de développer mes compétences en C#.",
+            "icon": "fa-solid fa-code",
+            "type": "technique",
+            "projets": [
+                "lei"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Architecture RESTful",
+            "text": "Cette expérience m'a permis de comprendre les principes fondamentaux de l'architecture REST et de les mettre en pratique. J'ai appris à concevoir des API REST efficaces et évolutives, favorisant une communication efficace entre le frontend et le backend.",
+            "icon": "fa-solid fa-code",
+            "type": "technique",
+            "projets": [
+                "lei"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Automatisation avec Python",
+            "text": "J'ai développé des compétences en Python pour automatiser des tâches répétitives, améliorant ainsi l'efficacité de notre processus de développement.",
+            "icon": "fa-brands fa-python",
+            "type": "technique",
+            "projets": [
+                "requea"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Autonomie",
+            "text": "J'ai également développé mes compétences en autonomie en travaillant sur ces projets. J'ai appris à prendre des initiatives, à résoudre les problèmes de manière indépendante et à être proactif dans mon apprentissage.",
+            "icon": "fa-solid fa-user-check",
+            "type": "soft",
+            "projets": [
+                "requea",
+                "lei",
+                "octafood"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Curiosité",
+            "text": "Travailler sur des projets variés m'a permis de développer ma curiosité et ma soif d'apprendre. J'ai appris à explorer de nouvelles technologies, à relever de nouveaux défis et à rester constamment à jour sur les dernières tendances du secteur pour améliorer mes compétences et rester compétitif.",
+            "icon": "fa-solid fa-search",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Découverte d'Angular 5",
+            "text": "La migration vers Angular 5 a été une véritable révélation pour moi. Sans expérience préalable avec Angular, j'ai plongé dans cet écosystème passionnant et j'ai appris à concevoir des interfaces utilisateur dynamiques et réactives en utilisant les concepts modernes du développement frontend.",
+            "icon": "fa-brands fa-angular",
+            "type": "technique",
+            "projets": [
+                "lei"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Développement agile",
+            "text": "Ces expériences m'ont également initié aux méthodologies de développement agile. J'ai appris à travailler de manière itérative, à m'adapter aux changements et à collaborer étroitement avec les membres de l'équipe pour résoudre les problèmes rapidement.",
+            "icon": "fa-solid fa-tasks",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Développement C#.NET",
+            "text": "Travailler sur des projets C#.NET m'a permis de renforcer mes compétences en développement backend. J'ai appris à concevoir des applications robustes et évolutives en utilisant les meilleures pratiques de développement C# et en respectant les normes de qualité élevées.",
+            "icon": "fa-solid fa-code",
+            "type": "technique",
+            "projets": [
+                "lei"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Développement Delphi",
+            "text": "Travailler avec Delphi a été une expérience unique pour moi. J'ai appris à concevoir des applications Windows puissantes et conviviales en utilisant les fonctionnalités avancées de Delphi et en respectant les exigences spécifiques du secteur de l'agroalimentaire.",
+            "icon": "fa-solid fa-code",
+            "type": "technique",
+            "projets": [
+                "octafood"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Développement de nouvelles fonctionnalités",
+            "text": "La mise en place de nouvelles fonctionnalités m'a offert l'occasion d'innover et de repousser les limites des logiciels existants. J'ai appris à recueillir les exigences des clients, à concevoir des solutions techniques adaptées et à les mettre en œuvre de manière efficace, en veillant à ce qu'elles soient conviviales et répondent aux besoins métier spécifiques.",
+            "icon": "fa-solid fa-lightbulb",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Développement IoT",
+            "text": "Travailler dans le domaine de l'IoT m'a permis de découvrir un nouvel univers technologique passionnant. J'ai appris à concevoir des solutions IoT innovantes en utilisant des capteurs, des réseaux sans fil et des plateformes cloud pour collecter, analyser et visualiser des données en temps réel.",
+            "icon": "fa-solid fa-network-wired",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Développement Java",
+            "text": "Travailler avec Java m'a permis de renforcer mes compétences en développement backend. J'ai appris à concevoir des applications robustes et évolutives en utilisant les meilleures pratiques de développement Java et en respectant les normes de qualité élevées.",
+            "icon": "fa-brands fa-java",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Développement Web",
+            "text": "Travailler sur des projets de développement web m'a permis de renforcer mes compétences en conception d'interfaces utilisateur conviviales et réactives. J'ai appris à concevoir des applications web modernes en utilisant les dernières technologies front-end et back-end pour offrir une expérience utilisateur optimale.",
+            "icon": "fa-solid fa-code",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Écoute active",
+            "text": "À travers diverses interactions avec les membres de l'équipe et les clients au cours de réunion, j'ai développé mes compétences en écoute active. J'ai appris à écouter attentivement les besoins et les préoccupations des autres, à poser des questions pertinentes et à fournir des réponses adaptées pour favoriser une communication efficace et une collaboration harmonieuse.",
+            "icon": "fa-solid fa-ear-listen",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Gestion de base de données",
+            "text": "Pour gérer les données collectées, j'ai développé mes compétences en gestion de base de données. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes SQL et à assurer la sécurité des données pour garantir la fiabilité et la performance des applications.",
+            "icon": "fa-solid fa-database",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Gestion de projet",
+            "text": "Travailler sur ces projets m'a également donné une expérience précieuse en gestion de projet. J'ai appris à prioriser les tâches, à respecter les échéances et à collaborer efficacement avec les membres de l'équipe pour atteindre nos objectifs communs.",
+            "icon": "fa-solid fa-people-group",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Gestion des tickets de correction",
+            "text": "En traitant les tickets de correction, j'ai développé des compétences solides en analyse et en débogage de code. J'ai appris à diagnostiquer rapidement les problèmes, à élaborer des solutions efficaces et à les mettre en œuvre de manière précise pour assurer la stabilité et la fiabilité des applications.",
+            "icon": "fa-solid fa-bug",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Gestion du temps",
+            "text": "La gestion du temps était un aspect crucial de ce projet. J'ai appris à prioriser les tâches, à respecter les échéances et à m'adapter aux changements pour atteindre nos objectifs dans les délais impartis.",
+            "icon": "fa-solid fa-clock",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Installation chez les clients",
+            "text": "L'installation des logiciels chez les clients m'a permis de comprendre l'importance de l'interopérabilité et de la compatibilité logicielle. J'ai acquis une expérience pratique dans la configuration et le déploiement de solutions logicielles sur différentes infrastructures, en veillant à ce que les installations se déroulent sans heurts et que les clients soient pleinement satisfaits de nos services.",
+            "icon": "fa-solid fa-server",
+            "type": "technique",
+            "projets": [
+                "octafood"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Installation et configuration de postes de travail",
+            "text": "J'ai acquis de l'expérience dans l'installation et la configuration de postes de travail pour les nouveaux employés, en veillant à ce qu'ils disposent des outils et des ressources nécessaires pour réussir dans leur rôle.",
+            "icon": "fa-solid fa-desktop",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Machine Virtuelle",
+            "text": "J'ai appris à utiliser des machines virtuelles pour tester et déployer des applications dans des environnements isolés, garantissant ainsi la stabilité et la sécurité de nos solutions logicielles.",
+            "icon": "fa-solid fa-server",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Relation Client",
+            "text": "En travaillant pour les demandes des clients, j'ai développé mes compétences en relation client. J'ai appris à écouter attentivement les besoins des clients, à communiquer efficacement avec eux et à fournir des solutions adaptées pour répondre à leurs attentes.",
+            "icon": "fa-solid fa-headset",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Simulation de réseaux LoRaWAN",
+            "text": "J'ai acquis une expérience pratique dans la simulation de réseaux LoRaWAN pour tester et valider nos solutions IoT avant leur déploiement, garantissant ainsi leur fiabilité et leur performance.",
+            "icon": "fa-solid fa-network-wired",
+            "type": "technique",
+            "projets": [
+                "lei",
+                "requea"
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Travail en équipe",
+            "text": "Travailler à plusieurs m'a permis de développer mes compétences en travail d'équipe. J'ai appris à collaborer efficacement avec les membres de l'équipe, à partager mes connaissances et à résoudre les problèmes ensemble.",
+            "icon": "fa-solid fa-people-carry-box",
+            "type": "soft",
+            "projets": [
+                "lei",
+                "requea",
+                "octafood"
+            ]
+        }
+    ]
+}
