@@ -9,7 +9,7 @@
     <title>Astar</title>
 
     {{-- ICON --}}
-    <link rel="shortcut icon" href="{{ asset('img/téléchargement-removebg-preview.png') }}">
+    <link rel="shortcut icon" href="{{ asset('/portfolioFile/logo1.png') }}">
 
     {{-- TAILWIND --}}
     <script src="https://cdn.tailwindcss.com"></script>
