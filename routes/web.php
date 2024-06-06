@@ -9,7 +9,9 @@ use App\Http\Controllers\MonsterController;
 use App\Http\Controllers\RarityController;
 use App\Http\Controllers\TypeController;
 
-Route::middleware(['auth.check'])->get( '/', [HomeController::class, 'index'])->name('home');
+Route::get('/', function () {
+    return redirect('/portfolio');
+})->name('home');
 
 Route::get('/register', function () {
     return view('register');
