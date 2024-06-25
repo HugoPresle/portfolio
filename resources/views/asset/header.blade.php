@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Astar</title>
+    <title>Portfolio Hugo Presle</title>
 
     {{-- ICON --}}
-    <link rel="shortcut icon" href="{{ asset('/public/portfolioFile/logo1.png') }}">
+    <link rel="shortcut icon" href="{{ asset('/portfolioFile/logo1.png') }}">
 
     {{-- TAILWIND --}}
     <script src="https://cdn.tailwindcss.com"></script>

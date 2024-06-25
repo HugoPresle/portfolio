@@ -65,7 +65,7 @@
                     </li>
 
                 </ul>
-                <div id="dropdown-cta" class="p-4 mt-6 rounded-lg bg-blue-50" role="alert">
+                {{-- <div id="dropdown-cta" class="p-4 mt-6 rounded-lg bg-blue-50" role="alert">
                     <div class="flex items-center mb-3">
                         <span class="bg-blue-100 text-blue-800 text-sm font-semibold me-2 px-2.5 py-0.5 rounded">En
                             Développement</span>
@@ -84,7 +84,7 @@
                         Le site est en cours de développement, certaines fonctionnalités ne sont pas encore disponibles.
                         Merci de votre compréhension.
                     </p>
-                </div>
+                </div> --}}
             </div>
         </aside>
 
@@ -106,7 +106,7 @@
                                     <div
                                         class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                                         <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl"
-                                            src="{{ '/portfolioFile/OIG12.jpeg' }}" alt="">
+                                            src="{{ '/portfolioFile/C05BB84E-EAB3-41CA-A155-54018EB5DA56_1_105_c.jpeg' }}" alt="">
 
                                         <div class="mt-2 md:mx-6">
 
@@ -407,8 +407,8 @@
                                             <i class="fa-brands fa-linkedin fa-xl"></i>
                                         </span>
 
-                                        <h2 class="mt-4 text-lg font-medium text-gray-800">Linkedin</h2>
-                                        <p class="mt-2 text-gray-500">Envoyez moi un message sur Linkedin.</p>
+                                        <h2 class="mt-4 text-lg font-medium text-gray-800">LinkedIn</h2>
+                                        <p class="mt-2 text-gray-500">Envoyez moi un message sur LinkedIn.</p>
                                         <a href="https://www.linkedin.com/in/hugo-presle-7648191ab"
                                             class="mt-2 text-blue-500">Hugo Presle</a>
                                     </div>
