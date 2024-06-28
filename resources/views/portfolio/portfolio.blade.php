@@ -37,13 +37,8 @@
                     <li>
                         <a onclick="portMenu('proj')" id="projA"
                             class="flex items-center p-2 cursor-pointer rounded-lg text-gray-800 hover:text-blue-500">
-                            <span class="ms-3"><i class="fa-solid fa-folder-open fa-lg mr-3"></i>Projets</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a onclick="portMenu('exp')" id="expA"
-                            class="flex items-center p-2 cursor-pointer rounded-lg text-gray-800 hover:text-blue-500">
-                            <span class="ms-3"><i class="fa-solid fa-briefcase fa-lg mr-3"></i>Experiences</span>
+                            <span class="ms-3"><i class="fa-solid fa-folder-open fa-lg mr-3"></i>Projets et
+                                Experiences</span>
                         </a>
                     </li>
                     <li>
@@ -106,7 +101,8 @@
                                     <div
                                         class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                                         <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl"
-                                            src="{{ '/portfolioFile/C05BB84E-EAB3-41CA-A155-54018EB5DA56_1_105_c.jpeg' }}" alt="">
+                                            src="{{ '/portfolioFile/C05BB84E-EAB3-41CA-A155-54018EB5DA56_1_105_c.jpeg' }}"
+                                            alt="">
 
                                         <div class="mt-2 md:mx-6">
 
@@ -148,7 +144,7 @@
                         </section>
                     </div>
                     <div id="proj" class="flex rounded-lg min-h-screen hidden">
-                        <section class="bg-white">
+                        {{-- <section class="bg-white">
                             <div class="container px-6 py-10 mx-auto">
                                 <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">
                                     <span class="underline decoration-blue-500">Projets</span>
@@ -160,44 +156,99 @@
                                 </p>
 
                                 <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-1 xl:grid-cols-3">
-                                    <div class="relative group border-2 border-blue-500 rounded-lg cursor-pointer"
-                                        onclick="showProj('astar')">
-                                        <img class="object-cover w-full rounded-lg h-96"
-                                            src="{{ 'portfolioFile/proj/040-Faombre.png' }}" alt="">
-                                        <div
-                                            class="rounded-lg absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">ASTAR Game
-                                                <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Jeu de rôle
-                                                    en ligne</p>
-                                        </div>
+                                </div>
+                            </div>
+                        </section> --}}
+                        <section class="bg-white">
+                            <div class="container px-6 py-10 mx-auto">
+                                <div>
+                                    <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">Mes Projets
+                                    </h1>
+
+                                    <div class="mt-2">
+                                        <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                                        <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                                        <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
                                     </div>
-                                    <div class="relative group border-2 border-blue-500 rounded-lg cursor-pointer"
-                                        onclick="showProj('pokexpert')">
-                                        <img class="object-cover w-full rounded-lg h-96"
-                                            src="{{ 'portfolioFile/proj/Capture d’écran 2024-05-25 à 12.02.40.png' }}"
-                                            alt="">
-                                        <div
-                                            class="rounded-lg absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">PokExpert</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Outils
-                                                Statisques </p>
-                                        </div>
+                                </div>
+
+                                <div class="mt-8 lg:-mx-6 lg:flex lg:items-center ">
+                                    <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96 border-2 border-blue-500"
+                                        src="{{ 'portfolioFile/proj/040-Faombre.png' }}" alt="">
+
+                                    <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+                                        <p class="text-sm text-blue-500 uppercase">ASTAR Game</p>
+
+                                        <a class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline">
+                                            Jeu de rôle en ligne
+                                        </a>
+
+                                        <p class="mt-3 text-sm text-gray-500 md:text-sm">
+                                            ASTAR est un jeu de rôle en ligne palpitant, qui vous plonge dans un univers
+                                            fantastique rempli de monstres à collectionner et à entraîner. Dans ce monde,
+                                            vous commencerez votre aventure en invoquant des monstres avec des GemStars et
+                                            vous les ferez évoluer au fil des combats et...
+                                        </p>
+
+                                        <a onclick="showProj('astar')"
+                                            class="inline-block mt-2 text-blue-500 underline hover:text-blue-400 cursor-pointer">Lire
+                                            plus
+                                        </a>
                                     </div>
-                                    <div class="relative group border-2 border-blue-500 rounded-lg cursor-pointer"
-                                        onclick="showProj('requin')">
-                                        <img class="rounded-lg object-cover w-full rounded-lg h-96"
-                                            src="{{ 'portfolioFile/proj/OIG1 (1).jpeg'}}" alt="">
-                                        <div
-                                            class="absolute inset-0 flex flex-col justify-center items-center bg-gray-800/60 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                                            <h2 class="mt-4 text-xl font-semibold text-white capitalize">Requin</h2>
-                                            <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase">Script Pyhton</p>
-                                        </div>
+                                </div>
+
+                                <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+                                    <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96 border-2 border-blue-500"
+                                        src="{{ 'portfolioFile/proj/Capture d’écran 2024-05-25 à 12.02.40.png' }}"
+                                        alt="">
+
+                                    <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+                                        <p class="text-sm text-blue-500 uppercase">PokExpert</p>
+
+                                        <a class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline">
+                                            Outils Statisques
+                                        </a>
+
+                                        <p class="mt-3 text-sm text-gray-500 md:text-sm">
+                                            Je suis heureux de vous présenter PokExpert, un projet que j'ai développé en
+                                            solo et de manière autodidacte. PokExpert est un site web conçu spécialement
+                                            pour les joueurs de Pokémon. Il offre un outil de gestion de listes permettant
+                                            aux utilisateurs de suivre leur progression dans...
+                                        </p>
+                                        <a onclick="showProj('pokexpert')"
+                                            class="inline-block mt-2 text-blue-500 underline hover:text-blue-400 cursor-pointer">Lire
+                                            plus
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+                                    <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96 border-2 border-blue-500"
+                                        src="{{ 'portfolioFile/proj/OIG1 (1).jpeg' }}" alt="">
+
+                                    <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+                                        <p class="text-sm text-blue-500 uppercase">Requin</p>
+
+                                        <a class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline">
+                                            Script Pyhton
+                                        </a>
+
+                                        <p class="mt-3 text-sm text-gray-500 md:text-sm">
+                                            Dans le cadre de mon travail, j'ai entrepris un projet en solo visant à
+                                            améliorer l'efficacité et la productivité de notre équipe. Pour ce faire, j'ai
+                                            développé une série de scripts automatisant diverses tâches répétitives et
+                                            chronophages, que j'ai intégrés dans un programme unique en Python, accessible à
+                                            tous. Ce programme regroupe plusieurs...
+                                        </p>
+
+                                        <a onclick="showProj('requin')"
+                                            class="inline-block mt-2 text-blue-500 underline hover:text-blue-400 cursor-pointer">Lire
+                                            plus
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                    </div>
-                    <div id="exp" class="flex rounded-lg min-h-screen hidden">
                         <section class="bg-white">
                             <div class="container px-6 py-10 mx-auto">
                                 <div>
@@ -327,7 +378,7 @@
                                                     EN INGÉNIERIE INFORMATIQUE</h1>
 
                                                 <p class="mt-3 text-gray-500">
-                                                    AFIP Formations - Lyon (69)
+                                                    AFIP Formations - Villeurbanne (69100)
                                                     <br> 2022 - 2024
                                                 </p>
                                             </div>
@@ -344,7 +395,7 @@
                                                     CONCEPTEUR DÉVELOPPEUR D'APPLICATIONS</h1>
 
                                                 <p class="mt-3 text-gray-500">
-                                                    AFIP Formations - Lyon (69)
+                                                    AFIP Formations - Villeurbanne (69100)
                                                     <br> 2020 - 2021
                                                 </p>
                                             </div>
@@ -440,7 +491,8 @@
 
                                 <h2
                                     class="mt-4 text-xl font-semibold text-gray-700 capitalize underline decoration-blue-500">
-                                    technologies</h2>
+                                    technologies utilisées
+                                </h2>
                                 <p class="text-gray-500" id="RDM-tech">
                                 </p>
                                 <h2
@@ -488,11 +540,30 @@
                                 <div class="flex items-start max-w-6xl mx-auto">
                                     <div>
                                         <div class="flex flex-col items-center justify-center mt-8" id="RMC-icon"></div>
+                                        <h2 class="mt-6 text-xl font-semibold text-gray-700">
+                                            Définition :
+                                        </h2>
+
+                                        <p class="mt-4 text-gray-500">
+                                            <span id="RMC-def"></span>
+                                        </p>
+                                        <h2 class="mt-6 text-xl font-semibold text-gray-700">
+                                            Compétences :
+                                        </h2>
+
                                         <p class="mt-4 text-gray-500">
                                             <span id="RMC-text"></span>
                                         </p>
+
+                                        <h2 class="mt-6 text-xl font-semibold text-gray-700">
+                                            Conclusion :
+                                        </h2>
+                                        <p class="mt-4 text-gray-500">
+                                            <span id="RMC-conclu"></span>
+                                        </p>
                                     </div>
                                 </div>
+                                <hr class="my-6 border-gray-200">
                                 <h2 class="mt-6 text-xl font-semibold text-gray-700">
                                     Liste des projets en rapport avec cette
                                     <span class="underline decoration-blue-500">compétence</span> :
@@ -552,7 +623,7 @@
 
                                     <div class="mt-8 lg:w-1/4 lg:mt-0 lg:px-6">
                                         <div>
-                                            <h3 class="text-blue-500 capitalize">technologies</h3>
+                                            <h3 class="text-blue-500 capitalize">technologies utilisées</h3>
                                             <ul class="mt-2 text-gray-500" id="RMP-tech">
                                             </ul>
                                         </div>
@@ -623,12 +694,12 @@
             });
         }
 
-        function showMoreComp(comp,backproj) {
+        function showMoreComp(comp, backproj) {
             let divs = document.querySelectorAll('#menu > div');
             divs.forEach(div => {
                 if (div.id == 'readMoreComp') {
                     div.classList.remove('hidden');
-                    changeTextComp(comp,backproj);
+                    changeTextComp(comp, backproj);
                 } else {
                     div.classList.add('hidden');
                 }
@@ -636,7 +707,7 @@
 
         }
 
-        function changeTextComp(id,backproj) {
+        function changeTextComp(id, backproj) {
             clearComp();
             readJsonFile('/portfolioFile/data.json').then(data => {
                 json = data.competence;
@@ -644,11 +715,15 @@
 
                 let title = document.getElementById('RMC-title');
                 let text = document.getElementById('RMC-text');
+                let def = document.getElementById('RMC-def');
+                let conclu = document.getElementById('RMC-conclu');
                 let i = document.getElementById('RMC-icon');
                 let a = document.getElementById('RMC-back');
 
                 title.innerHTML = json.title;
                 text.innerHTML = json.text;
+                def.innerHTML = json.definition;
+                conclu.innerHTML = json.conclusion;
                 i.innerHTML = `<i class="rounded-full text-blue-500 ${json.icon} fa-3x"></i>`;
                 let ul = document.getElementById('RMC-proj');
                 json.projets.forEach(proj => {
@@ -663,7 +738,8 @@
                         <span class="inline-block w-2 h-2 mr-2 bg-blue-500 rounded-full"></span>${proj}</li>`;
                 });
                 if (backproj != null) {
-                    a.innerHTML = `<i class="fa-solid fa-arrow-left"></i> Retour sur <span class="capitalize">${backproj}</span>`;
+                    a.innerHTML =
+                        `<i class="fa-solid fa-arrow-left"></i> Retour sur <span class="capitalize">${backproj}</span>`;
                     a.onclick = () => {
                         showProj(backproj);
                     }
@@ -730,7 +806,7 @@
                 conclu.innerHTML = json.conclusion;
                 json.technologies.forEach(tech => {
                     techn.innerHTML +=
-                        `<span class="hover:underline hover:text-blue-500 cursor-pointer">${tech}, </span>`;
+                        `<span class="">${tech}, </span>`;
                 });
 
                 json.competences.forEach(compet => {
@@ -820,7 +896,7 @@
                 title.innerHTML = json.title;
                 text.innerHTML = json.text;
                 json.technologies.forEach(tech => {
-                    ul.innerHTML += `<li class="mt-2 text-gray-500 uppercase hover:underline hover:text-blue-500 cursor-pointer">
+                    ul.innerHTML += `<li class="mt-2 text-gray-500 uppercase">
                         <span class="inline-block w-2 h-2 mr-2 bg-gray-500 rounded-full"></span>${tech}</li>`;
                 });
                 json.competence.forEach(compe => {
@@ -838,7 +914,7 @@
             let tech = document.getElementById('RMP-tech');
             let comp = document.getElementById('RMP-comp');
             let image = document.getElementById('RMP-img');
-            
+
 
             type.innerHTML = '';
             title.innerHTML = '';
